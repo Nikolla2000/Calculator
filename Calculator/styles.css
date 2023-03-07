@@ -10,7 +10,11 @@ body {
     width:150px;
     margin:0 auto;
     position: relative;
+    -webkit-box-shadow: 4px 3px 15px -3px #000000; 
+    box-shadow: 4px 3px 15px -3px #000000;
     top: 40px;
+    background: rgb(20,20,20);
+    background: linear-gradient(180deg, rgba(20,20,20,1) 3%, rgba(78,78,78,1) 21%, rgba(124,124,124,1) 51%, rgba(152,152,152,1) 69%, rgba(153,153,153,1) 73%, rgba(180,180,180,1) 95%);
 }
 
 
@@ -20,11 +24,10 @@ td{
     background-color: #696969;
     width:20px;
     text-align: center;
+    -webkit-box-shadow: 4px 3px 15px -3px #000000; 
+    box-shadow: 4px 3px 15px -3px #000000;
 }
 
-.wrapper {
-    background-color: #D3D3D3;
-}
 
 #batteryScreen {
     color:#7CFC00;
@@ -48,6 +51,7 @@ input{
     height: 20px;
     width:80%;
     margin:0 auto;
+    border:1px solid #060606
 }
 
 td:hover{
